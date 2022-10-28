@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+<script>
+
+var firebaseConfig = {
+  apiKey: "AIzaSyDgKgJTIpKYxNxtbLxUXWFzeIPcPLR1l0Y",
+  authDomain: "juego-de-carreras-e9783.firebaseapp.com",
+  databaseURL: "https://juego-de-carreras-e9783-default-rtdb.firebaseio.com",
+  projectId: "juego-de-carreras-e9783",
+  storageBucket: "juego-de-carreras-e9783.appspot.com",
+  messagingSenderId: "111998832429",
+  appId: "1:111998832429:web:1151e58538a5f42046cda4"
+}
+firebase.initializeApp(firebaseConfig);
+</script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/player.js"></script>
+<script src="js/game.js"></script>
+
+</body></html>
